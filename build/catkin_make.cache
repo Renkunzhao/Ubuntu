@@ -1,2 +1,2 @@
-interactive_marker_proxy:interactive_marker_tutorials:using_markers
--DCATKIN_WHITELIST_PACKAGES=interactive_marker_tutorials -DCATKIN_DEVEL_PREFIX=/home/rkzdtc/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/rkzdtc/catkin_ws/install -G Unix Makefiles
+interactive_marker_proxy:interactive_marker_tutorials:scene_editor:using_markers
+-DCATKIN_WHITELIST_PACKAGES=scene_editor -DCATKIN_DEVEL_PREFIX=/home/rkzdtc/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/rkzdtc/catkin_ws/install -G Unix Makefiles
