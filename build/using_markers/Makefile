@@ -183,6 +183,21 @@ basic_shapes/fast:
 .PHONY : basic_shapes/fast
 
 # Convenience name for target.
+using_markers/CMakeFiles/marker_array.dir/rule:
+	cd /home/rkzdtc/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 using_markers/CMakeFiles/marker_array.dir/rule
+.PHONY : using_markers/CMakeFiles/marker_array.dir/rule
+
+# Convenience name for target.
+marker_array: using_markers/CMakeFiles/marker_array.dir/rule
+
+.PHONY : marker_array
+
+# fast build rule for target.
+marker_array/fast:
+	cd /home/rkzdtc/catkin_ws/build && $(MAKE) -f using_markers/CMakeFiles/marker_array.dir/build.make using_markers/CMakeFiles/marker_array.dir/build
+.PHONY : marker_array/fast
+
+# Convenience name for target.
 using_markers/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule:
 	cd /home/rkzdtc/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 using_markers/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
 .PHONY : using_markers/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
@@ -584,6 +599,33 @@ src/basic_shapes.cpp.s:
 	cd /home/rkzdtc/catkin_ws/build && $(MAKE) -f using_markers/CMakeFiles/basic_shapes.dir/build.make using_markers/CMakeFiles/basic_shapes.dir/src/basic_shapes.cpp.s
 .PHONY : src/basic_shapes.cpp.s
 
+src/marker_array.o: src/marker_array.cpp.o
+
+.PHONY : src/marker_array.o
+
+# target to build an object file
+src/marker_array.cpp.o:
+	cd /home/rkzdtc/catkin_ws/build && $(MAKE) -f using_markers/CMakeFiles/marker_array.dir/build.make using_markers/CMakeFiles/marker_array.dir/src/marker_array.cpp.o
+.PHONY : src/marker_array.cpp.o
+
+src/marker_array.i: src/marker_array.cpp.i
+
+.PHONY : src/marker_array.i
+
+# target to preprocess a source file
+src/marker_array.cpp.i:
+	cd /home/rkzdtc/catkin_ws/build && $(MAKE) -f using_markers/CMakeFiles/marker_array.dir/build.make using_markers/CMakeFiles/marker_array.dir/src/marker_array.cpp.i
+.PHONY : src/marker_array.cpp.i
+
+src/marker_array.s: src/marker_array.cpp.s
+
+.PHONY : src/marker_array.s
+
+# target to generate assembly for a file
+src/marker_array.cpp.s:
+	cd /home/rkzdtc/catkin_ws/build && $(MAKE) -f using_markers/CMakeFiles/marker_array.dir/build.make using_markers/CMakeFiles/marker_array.dir/src/marker_array.cpp.s
+.PHONY : src/marker_array.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -594,6 +636,7 @@ help:
 	@echo "... install/local"
 	@echo "... rebuild_cache"
 	@echo "... basic_shapes"
+	@echo "... marker_array"
 	@echo "... geometry_msgs_generate_messages_py"
 	@echo "... test"
 	@echo "... geometry_msgs_generate_messages_lisp"
@@ -626,6 +669,9 @@ help:
 	@echo "... src/basic_shapes.o"
 	@echo "... src/basic_shapes.i"
 	@echo "... src/basic_shapes.s"
+	@echo "... src/marker_array.o"
+	@echo "... src/marker_array.i"
+	@echo "... src/marker_array.s"
 .PHONY : help
 
 

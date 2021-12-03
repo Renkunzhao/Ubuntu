@@ -40,7 +40,7 @@ CATKIN_SKIP_TESTING:BOOL=OFF
 CATKIN_SYMLINK_INSTALL:BOOL=OFF
 
 //List of ';' separated packages to build
-CATKIN_WHITELIST_PACKAGES:STRING=scene_editor
+CATKIN_WHITELIST_PACKAGES:STRING=using_markers
 
 //Path to a program.
 CMAKE_AR:FILEPATH=/usr/bin/ar
@@ -382,7 +382,7 @@ interactive_marker_tutorials_SOURCE_DIR:STATIC=/home/rkzdtc/catkin_ws/src/intera
 interactive_markers_DIR:PATH=/opt/ros/melodic/share/interactive_markers/cmake
 
 //Path to a library.
-lib:FILEPATH=/opt/ros/melodic/lib/librospack.so
+lib:FILEPATH=/opt/ros/melodic/lib/libxmlrpcpp.so
 
 //The directory containing a CMake configuration file for message_filters.
 message_filters_DIR:PATH=/opt/ros/melodic/share/message_filters/cmake
