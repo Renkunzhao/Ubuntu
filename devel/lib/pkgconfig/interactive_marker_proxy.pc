@@ -1,8 +1,0 @@
-prefix=/home/rkzdtc/catkin_ws/devel
-
-Name: interactive_marker_proxy
-Description: Description of interactive_marker_proxy
-Version: 0.1.2
-Cflags: -I/home/rkzdtc/catkin_ws/devel/include
-Libs: -L${prefix}/lib 
-Requires: interactive_markers message_runtime visualization_msgs
